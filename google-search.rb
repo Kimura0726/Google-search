@@ -5,7 +5,7 @@ require 'uri'
 require 'cgi'
 require 'csv'
 
-# Google検索を行う関数
+# Google検索
 def google_search(domain)
   escaped_url = URI.escape(
       "https://www.google.com/search?q=site:"+ domain[0] +"&oe=utf-8&hl=ja")
